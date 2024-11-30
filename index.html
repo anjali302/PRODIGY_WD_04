@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <img src="https://media.licdn.com/dms/image/v2/D4E35AQEImYrr1uM4WA/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1729870044264?e=1733576400&v=beta&t=aGGE5xFk8iOYyG5for0WrCsmYSNlA5fKvOkKivelkY8" class="profile-photo">
+        <p> I am actively learning and developing my skills to create innovative web applications.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I am a college student pursuing a degree in Information Technology. With a strong interest in web development, I have been learning and practicing HTML, CSS, and JavaScript to build websites and interactive applications. While I may not have professional work experience yet, I am committed to learning and improving my skills through personal projects and coursework. I am excited to explore new technologies and contribute to real-world development projects in the future. </p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="project-list"></div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>My Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
